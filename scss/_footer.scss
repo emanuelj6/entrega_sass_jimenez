@@ -1,0 +1,53 @@
+footer {
+  background-color: $bg_nav;
+}
+.img_redes_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+  a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .size_redes_footer {
+      width: 10%;
+      margin: 10px;
+      padding: auto;
+      &:hover {
+        transform: scale(1.1, 1.1);
+      }
+    }
+  }
+}
+.title_second {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .img_redes_footer {
+    display: flex;
+    flex-direction: row;
+    .size_redes_footer {
+      width: 15%;
+    }
+    .img_wp {
+      justify-content: flex-end;
+    }
+    .img_ig {
+      justify-content: flex-start;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .img_redes_footer {
+    display: flex;
+    flex-direction: row;
+    .size_redes_footer {
+      width: 10%;
+    }
+  }
+}

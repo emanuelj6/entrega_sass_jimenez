@@ -1,0 +1,39 @@
+.navbar-brand {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.bg-light {
+  --bs-bg-opacity: 0;
+  background-color: $bg_nav !important;
+}
+
+.icon:hover {
+  transform: scale(1.1, 1.1);
+}
+.button_nav:hover {
+  transform: scale(1.03, 1.03);
+  font-weight: bold;
+}
+@media screen and (min-width: 992px) {
+  
+  .modif_img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .nav_center {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .margin_nav {
+      a {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+  
+  
+}
